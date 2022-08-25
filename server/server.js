@@ -7,7 +7,7 @@ const app = express();
 // Port to listen on
 app.set('port', 3000);
 // Middleware
-app.use(cors()); //<- might need this for front end requests
+app.use(cors());
 app.use(express.json());
 
 app.use('', router);
