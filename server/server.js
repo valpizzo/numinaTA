@@ -5,7 +5,7 @@ const router = require('./routes');
 const app = express();
 
 // Port to listen on
-app.set('port', 3000);
+app.set('port', 3001);
 // Middleware
 app.use(cors());
 app.use(express.json());
